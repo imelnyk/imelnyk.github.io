@@ -2,6 +2,7 @@ github_users:
   - imelnyk
 
 github_repos:
+  - IBM/ReprogBERT
   - IBM/Grapher
   - IBM/TabFormer
   - IBM/fold2seq
