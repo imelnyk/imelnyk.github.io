@@ -4,9 +4,9 @@
     - name: Full Name
       value: Igor Melnyk
     - name: Position
-      value: Research Staff Member at IBM Research
+      value: Distinguished Applied Researcher at Capital One
     - name: Contact
-      value: igor.melnyk at ibm.com
+      value: igor.melnyk at capital one dot com
 
 - title: Education
   type: time_table
@@ -27,9 +27,12 @@
 - title: Experience
   type: time_table
   contents:
+    - title: Distinguished Applied Researcher
+      institution: Capital One, New York, NY
+      year: 2024 - present
     - title: Research Staff Member
       institution: IBM Research, Yorktown Heights, NY
-      year: 2016 - present
+      year: 2016 - 2024
     - title: Research Assistant
       institution: University of Minnesota, Minneapolis, MN
       year: 2009-2016
@@ -43,27 +46,18 @@
 - title: Research Interests
   type: time_table
   contents:
-    - title:
-      institution: A broad class of machine learning algorithms that focuses on understanding the underlying data distribution and generate new samples with statistical properties similar to the original dataset.
-      year: Generative Models
-    - title:
-      institution: Forward protein design predicts the structure and function of a protein based on its amino acid sequence, while the inverse design estimates a protein sequence with a desired structure and function.
-      year: Protein Design
-    - title:
-      institution: Automatic extraction of structured representations from text data, involving identifying entities, disambiguating their meanings, and mapping them to a graph-based representation for efficient storage, retrieval, and reasoning.
-      year: Knowledge Graph
-    - title:
-      institution: The task of transforming the style or tone of a given text while preserving its semantic meaning and structure.
-      year: Style Transfer
-    - title:
-      institution: The task of analyzing the visual content of an image and generating a coherent and textual description that accurately describes the content of an image.
-      year: Image Captioning
-    - title:
-      institution: Information theoretic view of neural networks analyzing their properties to gain understanding on how they represent and process information, as well as for designing efficient architectures.
-      year: Information Theory
-    - title:
-      institution: The task of identifying patterns that deviate from the expected behavior of a system or dataset.
-      year: Anomaly Detection
+    - title: Sequential Tabular Data
+      description: Modeling and forecasting sequential data with a focus on event sequence modeling, anomaly and pattern detection, and graph-based representations of customer interactions.
+    - title: Generative Models
+      description: A broad class of machine learning algorithms that focuses on understanding the underlying data distribution and generate new samples with statistical properties similar to the original dataset.
+    - title: Knowledge Graphs
+      description: Automatic extraction of structured representations from text data, involving identifying entities, disambiguating their meanings, and mapping them to a graph-based representation for efficient storage, retrieval, and reasoning.
+    - title: Protein Design
+      description: Forward protein design predicts the structure and function of a protein based on its amino acid sequence, while the inverse design estimates a protein sequence with a desired structure and function.
+    - title: Information Theory
+      description: Information theoretic view of neural networks analyzing their properties to gain understanding on how they represent and process information, as well as for designing efficient architectures.
+    - title: Image Captioning
+      description: The task of analyzing the visual content of an image and generating a coherent and textual description that accurately describes the content of an image.
 
 - title: Technical Skills
   type: nested_list
